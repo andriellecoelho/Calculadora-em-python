@@ -1,6 +1,6 @@
 number1= float(input('Caro usuário digite um número:'))
 number2 = float(input('Caro usuário digite outro número: '))
-operacao = input('Informe a operacão que deseja realizar (adição, subtração,multiplicação,divisão): ')
+operacao = input('Informe a operacão que deseja realizar (adição,subtração,multiplicação,divisão): ')
 
 if operacao =='adição':
     resultado = float(number1) + float(number2)
@@ -15,5 +15,5 @@ elif operacao =='divisão':
     resultado = float(number1) / float(number2)
     print(resultado)
 else:
-    print('Operação inválida!')
+    print('Operação inválida! Use adição,subtração, multiplicação ou divisão para realizar uma operação. ')
 print('Fim do programa')
