@@ -6,13 +6,13 @@ if operacao =='adição':
     resultado = float(number1) + float(number2)
     print(resultado)
 elif operacao =='subtração':
-    resultado = float(number1) + float(number2)
+    resultado = float(number1) - float(number2)
     print(resultado)
 elif operacao == 'multiplicação':
-    resultado = float(number1) + float(number2)
+    resultado = float(number1) * float(number2)
     print(resultado)
 elif operacao =='divisão':
-    resultado = float(number1) + float(number2)
+    resultado = float(number1) / float(number2)
     print(resultado)
 else:
     print('Operação inválida!')
